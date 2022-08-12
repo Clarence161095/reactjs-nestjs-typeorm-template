@@ -1,0 +1,16 @@
+@import './_variables.scss';
+@import './_mixins.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+.menuTitle {
+  font-family: 'Square Peg', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.text-code {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.text-courier {
+  font-family: "Lucida Console", "Courier New", monospace;
+}

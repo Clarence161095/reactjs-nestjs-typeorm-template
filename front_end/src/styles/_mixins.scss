@@ -1,0 +1,16 @@
+@mixin displayCenter($direction: column) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin fullSize {
+  width: 100vw;
+  height: 100vh;
+}

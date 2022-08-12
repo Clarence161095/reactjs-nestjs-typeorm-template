@@ -1,0 +1,57 @@
+{
+    "env": {
+        "es2020": true,
+        "node": true,
+        "mocha": true,
+        "jest": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "quotes": "off",
+        "import/no-extraneous-dependencies": "off",
+        "no-unneeded-ternary": "off",
+        "camelcase": "off",
+        "object-shorthand": "off",
+        "no-multiple-empty-lines": "off",
+        "padded-blocks": "off",
+        "no-multi-spaces": "off",
+        "no-trailing-spaces": "off",
+        "no-shadow": "off",
+        "max-len": "off",
+        "comma-dangle": "off",
+        "import/prefer-default-export": "off",
+        "import/no-unresolved": "off",
+        "no-useless-constructor": "off",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "import/extensions": "off",
+        "no-empty-function": "off",
+        "indent": "off",
+        "arrow-body-style": "off",
+        "class-methods-use-this": "off",
+        "no-underscore-dangle": "off",
+        "consistent-return": "off",
+        "object-curly-newline": "off"
+    },
+    "overrides": [
+        {
+            "files": [
+                "./src/main.ts",
+                "./src/components/app/app.module.ts"
+            ],
+            "rules": {
+                "no-console": "off"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+.menuTitle {
+  font-family: 'Square Peg', cursive;
+}
+
+.text-code {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.text-courier {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+/*# sourceMappingURL=style.css.map */
